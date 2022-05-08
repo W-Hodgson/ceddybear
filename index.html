@@ -1,1 +1,36 @@
-<img src="./header.png" />
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://localhost:35729/livereload.js"> </script>
+
+  <head>
+    <meta charset="utf-8">
+    <title>CeddyBear</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="nav-bar container">
+          <li class="selected"><a href="index.html">About</a></li>
+          <li><a href="index.html">Plays</a></li>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="title">
+        <span>Richard</span>
+        <span class="central-title"><em>Cedric</em></span>
+        <span>Hodgson</span>
+      </div>
+    </header>
+  </body>
+
+  <script type="text/javascript">
+    $(".selected").click(function() {
+      console.log("Hello!")
+    })
+  </script>
+</html>
